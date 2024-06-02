@@ -1,0 +1,40 @@
+﻿Ficha Técnica: Projeto 1 de Análise de Dados
+Título do Projeto: Análise de Clientes da Loja "El Mercado"
+Objetivo:
+Analisar o comportamento dos clientes ao longo do tempo na loja "El Mercado" e segmentá-los de maneira eficaz, utilizaremos o modelo RFM (Recency, Frequency, Monetary) juntamente com a análise de coorte. Nosso objetivo é identificar padrões de consumo que possam informar estratégias de marketing e retenção de clientes.
+Projeto realizado individualmente.
+Ferramentas e Tecnologias:
+* Google Sheets: Para gerenciamento e análise dos dados.
+* Google Slides: Para criação da apresentação.
+* Looker Studio: Para visualização dos dados e criação de dashboards.
+Processamento e Análises:
+1- Limpeza e união das tabelas de clientes, transações e resumo de compras.
+Elimine os dados duplicados(9)  da tabela resumo_compras porque meu guia é id_cliente e se repete.
+elimine os dados nulos(7) de a tabela transacoes porque nao tem id_cliente.
+troque os dados nulos(24) da tabela clientes pela media de renda_anual pela media.
+2- Análise exploratória dos dados, com agrupamento de dados categóricos, identificando padrões de compra e comportamento dos clientes.
+            Fiz coluna total de compra, frequência de compra, dias que passaram da                    última compra até hoje  e data da última transação.
+3- Aplicação do modelo RFM para segmentação dos clientes.
+com as coluna frequência, total de compras e dias passaram, tire o quartil e percentil, usando o percentil e classificá em 3 clientes de alto valor(fiéis), médio valor(riesgo) e baixo valor(invernando)
+
+
+4- Analises de tendência central e aplicação de análises de coorte.
+média, mediana e moda de a tabela score(para comprovar a divisão de classificação) e meses que passaram de na primeira e última transações(para comprovar o análises). o cohorte: fiz uma tabela dinâmica com na data de entrada, na última data e valor total, percebendo que maiormente a compras são feita entre os 7 e 18 meses da última transancão e segmente eles semestralmente para otimizar a informação. 
+5- Visualização de variáveis e distribuição.
+6- Construção de um dashboard para apresentar os resultados.
+Resultados e Conclusões:
+* Segmentação dos clientes em grupos com base no modelo RFM e Análises de Coorte.
+* Identificação de padrões de consumo e comportamento dos clientes.
+* Recomendações para a empresa com base nos insights obtidos.
+Cronograma:
+* Marco 1: Concluir até 18/03/2024
+* Marco 2: Concluir até 23/03/2024
+* Marco 3: Concluir até 28/03/2024
+Limitações/Próximos Passos:
+* Segmentação por Canais de Comunicação: Segmentar os clientes com base nos canais de comunicação preferidos, como e-mail, mídias sociais, telefone, etc.
+* Segmentação Demográfica.
+Links de Interesse:
+* [Link para a planilha do Google Sheets com os dados](Segmentação)
+* [Link para a apresentação do Google Slides](Segmentacao)
+* [Link para o dashboard no Looker Studio](Analise  )
+* Apresentação(Analise de Clentes   )
